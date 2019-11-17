@@ -1280,8 +1280,8 @@ def check_green_energy():
     # values or authentication. The -s option prevents curl from
     # displaying download stats. -m 60 prevents the whole
     # operation from taking over 60 seconds.ry/export.csv?T=1&D=0&M=1&C=1"')
-    greenEnergyData = run_process('curl -s -m 60 "http://192.168.178.42/history/export.csv"')
-
+    # greenEnergyData = run_process('curl -s -m 60 "http://192.168.178.42/history/export.csv"')
+    greenEnergyData = -1
     # In case, greenEnergyData will contain something like this:
     #   MTU, Time, Power, Cost, Voltage
     #   Solar,11/11/2017 14:20:43,-2.957,-0.29,124.3
