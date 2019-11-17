@@ -229,7 +229,7 @@ greenEnergyAmpsOffset = 0
 # 9 includes raw RS-485 messages transmitted and received (2-3 per sec)
 # 10 is all info.
 # 11 is more than all info.  ;)
-debugLevel = 1
+debugLevel = 10
 
 # Choose whether to display milliseconds after time on each line of debug info.
 displayMilliseconds = False
